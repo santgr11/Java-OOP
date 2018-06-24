@@ -1,0 +1,34 @@
+In this assignment you are supposed to design and implement an observation database for a bird watcher. The database contains birds, each of which have a name and a Latin name, both Strings. Database also tracks how many times each bird has been observed.
+
+The program should implement the following commands:
+
+Add - adds a bird
+Observation - adds an observation
+Statistics - prints all the birds
+Show - prints one bird
+Quit - terminates the program
+The program should also handle the invalid inputs (see Turing below).
+
+The following is an example how the program is supposed to work:
+
+? Add
+Name: Raven
+Latin Name: Corvus Corvus
+? Add
+Name: Seagull
+Latin Name: Dorkus Dorkus
+? Observation
+What was observed:? Seagull
+? Observation
+What was observed:? Turing
+Is not a bird!
+? Observation
+What was observed:? Seagull
+? Statistics
+Seagull (Dorkus Dorkus): 2 observations
+Raven (Corvus Corvus): 0 observations
+? Show
+What? Seagull
+Seagull (Dorkus Dorkus): 2 observations
+? Quit
+  
