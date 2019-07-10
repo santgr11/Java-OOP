@@ -13,4 +13,4 @@ As the programing part, the worm is an array of "Pieces", and when it moves, it 
 and create a new one in the new coordinate, except when you catch an apple (then the next time it moves
 doesnt remove his tail).
 
-Hope you enjoy it and if you are looking to learn OOP with Java i can't recommend this MOOC more.
+Hope you enjoy it and if you are looking to learn OOP with Java this MOOC is the best option.
